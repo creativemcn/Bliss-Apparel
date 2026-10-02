@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Netlify Next.js Runtime handles the rest automatically
+# when the @netlify/plugin-nextjs is present (auto-installed)
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: redirect rules if needed
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200

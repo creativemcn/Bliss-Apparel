@@ -1,0 +1,48 @@
+{
+  "name": "gadget-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.35",
+    "@supabase/supabase-js": "^2.45.4",
+    "@supabase/ssr": "^0.5.1",
+    "next-auth": "^5.0.0-beta.22",
+    "@auth/supabase-adapter": "^1.4.2",
+    "zustand": "^4.5.5",
+    "stripe": "^16.12.0",
+    "@stripe/stripe-js": "^4.5.0",
+    "@stripe/react-stripe-js": "^2.8.0",
+    "mailgun.js": "^10.2.3",
+    "form-data": "^4.0.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.441.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8",
+    "date-fns": "^3.6.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "tsx": "^4.19.1",
+    "@types/bcryptjs": "^2.4.6"
+  }
+}
